@@ -38,13 +38,13 @@ section { padding: 70px 20px; text-align: center; }
 
 .review-item { background: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 12px; margin: 15px 0; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); }
 
+footer { background: #333; padding: 20px; color: white; text-align: center; }
+
 .logo {
     width: 200px;
     height: auto;
     margin-bottom: 20px;
     animation: fadeIn 1.5s ease-in-out;
 }
-
-footer { background: #333; padding: 20px; color: white; text-align: center; }
 
 @keyframes fadeInUp { from { opacity: 0; transform: translateY(50px); } to { opacity: 1; transform: translateY(0); } }
