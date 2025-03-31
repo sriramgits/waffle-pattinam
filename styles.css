@@ -40,25 +40,20 @@ section { padding: 70px 20px; text-align: center; }
 
 footer { background: #333; padding: 20px; color: white; text-align: center; }
 
-.logo-container {
 .logo {
     width: 250px;
-    animation: pulseFlip 5s infinite ease-in-out;
+    animation: zoomGlowSpin 5s infinite ease-in-out;
     transform-style: preserve-3d;
 }
 
-@keyframes pulseFlip {
+@keyframes zoomGlowSpin {
     0%, 100% {
-        transform: rotateX(0deg) scale(1);
-    }
-    25% {
-        transform: rotateX(180deg) scale(1.1);
+        transform: rotateY(0deg) scale(1);
+        filter: drop-shadow(0 0 10px #ff7e5f);
     }
     50% {
-        transform: rotateX(360deg) scale(1);
-    }
-    75% {
-        transform: rotateX(180deg) scale(1.1);
+        transform: rotateY(360deg) scale(1.2);
+        filter: drop-shadow(0 0 20px #ffd166);
     }
 }
 
