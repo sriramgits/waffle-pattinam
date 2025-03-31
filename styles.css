@@ -42,7 +42,7 @@ footer { background: #333; padding: 20px; color: white; text-align: center; }
 
 .logo {
     width: 200px;
-    height: auto;
+    height: 200px;
     margin-bottom: 20px;
     animation: fadeIn 1.5s ease-in-out;
 }
