@@ -48,30 +48,6 @@ footer { background: #333; padding: 20px; color: white; text-align: center; }
 }
 
 .logo {
-    width: 250px; /* Adjust size if needed */
-    height: auto;
-    animation: rotateLogo 6s infinite ease-in-out;
-    transform-style: preserve-3d;
-}
-
-/* 3D Animation */
-@keyframes rotateLogo {
-    0% {
-        transform: rotateY(0deg) rotateX(0deg) scale(1);
-    }
-    25% {
-        transform: rotateY(180deg) rotateX(0deg) scale(1.1);
-    }
-    50% {
-        transf.logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Center vertically */
-}
-
-.logo {
-.logo {
     width: 250px;
     animation: floatSpin 8s infinite ease-in-out;
     transform-style: preserve-3d;
