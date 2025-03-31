@@ -63,13 +63,35 @@ footer { background: #333; padding: 20px; color: white; text-align: center; }
         transform: rotateY(180deg) rotateX(0deg) scale(1.1);
     }
     50% {
-        transform: rotateY(180deg) rotateX(180deg) scale(1);
+        transf.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically */
+}
+
+.logo {
+.logo {
+    width: 250px;
+    animation: floatSpin 8s infinite ease-in-out;
+    transform-style: preserve-3d;
+}
+
+@keyframes floatSpin {
+    0% {
+        transform: rotateY(0deg) translateY(0);
+    }
+    25% {
+        transform: rotateY(90deg) translateY(-15px);
+    }
+    50% {
+        transform: rotateY(180deg) translateY(0);
     }
     75% {
-        transform: rotateY(360deg) rotateX(180deg) scale(1.1);
+        transform: rotateY(270deg) translateY(-15px);
     }
     100% {
-        transform: rotateY(360deg) rotateX(360deg) scale(1);
+        transform: rotateY(360deg) translateY(0);
     }
 }
 
